@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//
         urlEditText = findViewById(R.id.urlEditText);
         startButton = findViewById(R.id.startButton);
         webView = findViewById(R.id.webView);
